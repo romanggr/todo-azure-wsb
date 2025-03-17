@@ -1,1 +1,34 @@
-*node_modules/*
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+workspace.xml
+tasks.xml
+shelf/
+modules.xml
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.env
+
+# React
+/build
+/.parcel-cache
+/.next
+.next/
+*.log
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
