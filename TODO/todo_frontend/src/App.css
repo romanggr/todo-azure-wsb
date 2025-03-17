@@ -35,6 +35,11 @@ input[type='text'] {
   min-width: 400px;
 }
 
+input ::focus {
+  border: none;
+  outline: none;
+}
+
 button {
   padding: 15px;
   margin-left: 10px;
